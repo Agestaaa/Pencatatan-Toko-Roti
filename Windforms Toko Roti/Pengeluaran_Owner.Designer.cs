@@ -30,15 +30,17 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.button6 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,6 +71,16 @@
             this.button6.TabIndex = 9;
             this.button6.Text = "Display";
             this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(137)))), ((int)(((byte)(171)))));
+            this.button3.Location = new System.Drawing.Point(7, 163);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(131, 27);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "Akun  Pekerja";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -102,16 +114,6 @@
             this.button4.TabIndex = 7;
             this.button4.Text = "Penjualan";
             this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(137)))), ((int)(((byte)(171)))));
-            this.button3.Location = new System.Drawing.Point(7, 163);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(131, 27);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "Akun  Pekerja";
-            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -170,17 +172,37 @@
             this.textBox1.Text = "C";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(218, 163);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(545, 384);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft New Tai Lue", 17.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(251, 68);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(153, 30);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Pengeluaran ";
+            // 
             // Pengeluaran_Owner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 590);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.panel1);
             this.Name = "Pengeluaran_Owner";
             this.Text = "Pengeluaran_Owner";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -197,5 +219,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label4;
     }
 }
