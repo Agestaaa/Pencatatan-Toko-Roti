@@ -133,5 +133,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artisan Sourdough _ Hy-Vee Aisles Online Grocery Shopping.jpeg" />
+    <Content Include="cheese cake js illit.jpeg" />
+    <Content Include="¡El secreto de un día perfecto se llama BROWNIE! 🍫✨.jpeg" />
+    <Content Include="☆⋆｡𖦹°‧★.jpeg" />
+    <Content Include="소금빵 - Google Search.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
