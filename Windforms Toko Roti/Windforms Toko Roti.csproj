@@ -95,67 +95,67 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="views\owner\Akun Pekerja_Owner.cs">
+    <Compile Include="Views\Owner\Akun Pekerja_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\Akun Pekerja_Owner.Designer.cs">
+    <Compile Include="Views\Owner\Akun Pekerja_Owner.Designer.cs">
       <DependentUpon>Akun Pekerja_Owner.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\owner\dashboard owner.cs">
+    <Compile Include="Views\Owner\dashboard owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\dashboard owner.Designer.cs">
+    <Compile Include="Views\Owner\dashboard owner.Designer.cs">
       <DependentUpon>dashboard owner.cs</DependentUpon>
     </Compile>
     <Compile Include="Helpers\DatabaseConnection.cs" />
-    <Compile Include="views\owner\Display_Owner.cs">
+    <Compile Include="Views\Owner\Display_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\Display_Owner.Designer.cs">
+    <Compile Include="Views\Owner\Display_Owner.Designer.cs">
       <DependentUpon>Display_Owner.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\owner\form login.cs">
+    <Compile Include="Views\Owner\form login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\form login.Designer.cs">
+    <Compile Include="Views\Owner\form login.Designer.cs">
       <DependentUpon>form login.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\owner\Pengeluaran_Owner.cs">
+    <Compile Include="Views\Owner\Pengeluaran_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\Pengeluaran_Owner.Designer.cs">
+    <Compile Include="Views\Owner\Pengeluaran_Owner.Designer.cs">
       <DependentUpon>Pengeluaran_Owner.cs</DependentUpon>
     </Compile>
-    <Compile Include="views\owner\Penjualan_Owner.cs">
+    <Compile Include="Views\Owner\Penjualan_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\Penjualan_Owner.Designer.cs">
+    <Compile Include="Views\Owner\Penjualan_Owner.Designer.cs">
       <DependentUpon>Penjualan_Owner.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="views\owner\Stok_Owner.cs">
+    <Compile Include="Views\Owner\Stok_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="views\owner\Stok_Owner.Designer.cs">
+    <Compile Include="Views\Owner\Stok_Owner.Designer.cs">
       <DependentUpon>Stok_Owner.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="views\owner\Akun Pekerja_Owner.resx">
+    <EmbeddedResource Include="Views\Owner\Akun Pekerja_Owner.resx">
       <DependentUpon>Akun Pekerja_Owner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\owner\dashboard owner.resx">
+    <EmbeddedResource Include="Views\Owner\dashboard owner.resx">
       <DependentUpon>dashboard owner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\owner\Display_Owner.resx">
+    <EmbeddedResource Include="Views\Owner\Display_Owner.resx">
       <DependentUpon>Display_Owner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\owner\form login.resx">
+    <EmbeddedResource Include="Views\Owner\form login.resx">
       <DependentUpon>form login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\owner\Pengeluaran_Owner.resx">
+    <EmbeddedResource Include="Views\Owner\Pengeluaran_Owner.resx">
       <DependentUpon>Pengeluaran_Owner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="views\owner\Penjualan_Owner.resx">
+    <EmbeddedResource Include="Views\Owner\Penjualan_Owner.resx">
       <DependentUpon>Penjualan_Owner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -167,7 +167,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="views\owner\Stok_Owner.resx">
+    <EmbeddedResource Include="Views\Owner\Stok_Owner.resx">
       <DependentUpon>Stok_Owner.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -194,9 +194,9 @@
   <ItemGroup>
     <Folder Include="controlers\" />
     <Folder Include="models\" />
-    <Folder Include="views\baker\" />
-    <Folder Include="views\kasir\" />
-    <Folder Include="views\restoker\" />
+    <Folder Include="Views\baker\" />
+    <Folder Include="Views\kasir\" />
+    <Folder Include="Views\restoker\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
