@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Windforms_Toko_Roti.Views;
 
 namespace Windforms_Toko_Roti
 {
@@ -16,7 +17,7 @@ namespace Windforms_Toko_Roti
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form_login());
+            Application.Run(new FormAkunPekerja());
         }
     }
 }

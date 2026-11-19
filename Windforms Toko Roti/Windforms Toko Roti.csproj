@@ -95,6 +95,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\KaryawanController.cs" />
+    <Compile Include="Models\Karyawan.cs" />
+    <Compile Include="Views\FormAkunPekerja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormAkunPekerja.Designer.cs">
+      <DependentUpon>FormAkunPekerja.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Owner\Akun Pekerja_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +148,9 @@
     <Compile Include="Views\Owner\Stok_Owner.Designer.cs">
       <DependentUpon>Stok_Owner.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\FormAkunPekerja.resx">
+      <DependentUpon>FormAkunPekerja.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Owner\Akun Pekerja_Owner.resx">
       <DependentUpon>Akun Pekerja_Owner.cs</DependentUpon>
     </EmbeddedResource>
@@ -192,8 +203,6 @@
     <Content Include="Resources\소금빵 - Google Search.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="controlers\" />
-    <Folder Include="models\" />
     <Folder Include="Views\baker\" />
     <Folder Include="Views\kasir\" />
     <Folder Include="Views\restoker\" />

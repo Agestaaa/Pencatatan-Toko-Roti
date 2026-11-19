@@ -6,38 +6,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Npgsql;
 
-namespace Windforms_Toko_Roti
+namespace Windforms_Toko_Roti.Database
 {
-    internal class DatabaseConnection
+    public class NYAMBUNG
     {
-        private static string connectionString=
-            "Host=localhost;" +
-            "port=5432;" +
-            "Database=cloudBakery;" +
-            "Username=postgres;" +
-            "Password=entah";
+        // Sesuaikan nama database, username, dan password PostgreSQL di laptopmu
+        private static readonly string connString =
+            "Host=localhost;Port=5432;Database=cloud_bakery;Username=postgres;Password=root";
 
         public static NpgsqlConnection GetConnection()
         {
-            return new NpgsqlConnection(connectionString);
-        }
-
-        public static bool TestConnection(out string message)
-        {
-            try
-            {
-                using (NpgsqlConnection conn = GetConnection())
-                {
-                    conn.Open();
-                    message = "Berhasil terhubung ke database cloudBakery!";
-                    return true;
-                }
-            } 
-            catch(Exception ex)
-            {
-                message = ex.Message;
-                return false;
-            }
+            return new NpgsqlConnection(connString);
         }
     }
 }
