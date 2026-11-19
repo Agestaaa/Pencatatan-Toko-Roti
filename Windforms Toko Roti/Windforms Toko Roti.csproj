@@ -107,7 +107,7 @@
     <Compile Include="Views\Owner\dashboard owner.Designer.cs">
       <DependentUpon>dashboard owner.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helpers\DatabaseConnection.cs" />
+    <Compile Include="Helper\DatabaseConnection.cs" />
     <Compile Include="Views\Owner\Display_Owner.cs">
       <SubType>Form</SubType>
     </Compile>
