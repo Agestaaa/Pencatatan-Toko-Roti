@@ -16,5 +16,19 @@ namespace Windforms_Toko_Roti
         {
             InitializeComponent();
         }
+
+        private void form_login_Load(object sender, EventArgs e)
+        {
+            string pesan;
+
+            if (DatabaseConnection.TestConnection(out pesan))
+            {
+                MessageBox.Show(pesan);
+            }
+            else
+            {
+                MessageBox.Show(pesan);
+            }
+        }
     }
 }
