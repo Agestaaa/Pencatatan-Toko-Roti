@@ -6,14 +6,14 @@ using Windforms_Toko_Roti.Models;
 
 namespace Windforms_Toko_Roti.Views
 {
-    public partial class FormAkunPekerja : Form
+    public partial class FormAkunKaryawan : Form
     {
         private readonly KaryawanController _controller = new KaryawanController();
         private List<Karyawan> _listKaryawan = new List<Karyawan>();
         private int _selectedIdKaryawan = 0;
         private int _selectedIdUsers = 0;
 
-        public FormAkunPekerja()
+        public FormAkunKaryawan()
         {
             InitializeComponent();
 

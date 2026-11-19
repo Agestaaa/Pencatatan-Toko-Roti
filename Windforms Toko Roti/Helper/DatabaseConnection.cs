@@ -12,7 +12,7 @@ namespace Windforms_Toko_Roti.Database
     {
         // Sesuaikan nama database, username, dan password PostgreSQL di laptopmu
         private static readonly string connString =
-            "Host=localhost;Port=5432;Database=cloud_bakery;Username=postgres;Password=root";
+            "Host=localhost;Port=5432;Database=cloudBakery;Username=postgres;Password=entah";
 
         public static NpgsqlConnection GetConnection()
         {

@@ -1,6 +1,6 @@
 ﻿namespace Windforms_Toko_Roti.Views
 {
-    partial class FormAkunPekerja
+    partial class FormAkunKaryawan
     {
         private System.ComponentModel.IContainer components = null;
 
