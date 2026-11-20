@@ -17,7 +17,6 @@ namespace Windforms_Toko_Roti.Views
         {
             InitializeComponent();
 
-            // Menghubungkan event secara otomatis tanpa perlu klik ganda satu per satu di Designer
             this.Load += FormAkunPekerja_Load;
             btnTambah.Click += btnTambah_Click;
             btnUbah.Click += btnUbah_Click;
@@ -45,7 +44,6 @@ namespace Windforms_Toko_Roti.Views
             dgvKaryawan.DataSource = null;
             dgvKaryawan.DataSource = _listKaryawan;
 
-            // Sembunyikan kolom ID internal agar tabel rapi
             if (dgvKaryawan.Columns["IdKaryawan"] != null) dgvKaryawan.Columns["IdKaryawan"].Visible = false;
             if (dgvKaryawan.Columns["IdUsers"] != null) dgvKaryawan.Columns["IdUsers"].Visible = false;
             if (dgvKaryawan.Columns["IdDivisi"] != null) dgvKaryawan.Columns["IdDivisi"].Visible = false;
