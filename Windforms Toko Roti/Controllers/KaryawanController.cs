@@ -9,7 +9,6 @@ namespace Windforms_Toko_Roti.Controllers
 {
     public class KaryawanController
     {
-        // Mengambil daftar divisi untuk isi ComboBox
         public List<Divisi> GetAllDivisi()
         {
             var list = new List<Divisi>();
@@ -33,7 +32,6 @@ namespace Windforms_Toko_Roti.Controllers
             return list;
         }
 
-        // READ: Mengambil seluruh data pekerja beserta akun login-nya
         public List<Karyawan> GetAllKaryawan()
         {
             var list = new List<Karyawan>();
@@ -75,7 +73,6 @@ namespace Windforms_Toko_Roti.Controllers
             return list;
         }
 
-        // CREATE: Simpan ke tabel users dulu, lalu ambil id_users untuk disimpan ke tabel karyawan
         public void TambahKaryawan(Karyawan data)
         {
             using (var conn = NYAMBUNG.GetConnection())
@@ -125,7 +122,6 @@ namespace Windforms_Toko_Roti.Controllers
             }
         }
 
-        // UPDATE: Perbarui data di tabel users dan karyawan
         public void UbahKaryawan(Karyawan data)
         {
             using (var conn = NYAMBUNG.GetConnection())
@@ -176,7 +172,6 @@ namespace Windforms_Toko_Roti.Controllers
             }
         }
 
-        // DELETE: Hapus akun dari tabel users (tabel karyawan ikut terhapus otomatis karena ON DELETE CASCADE)
         public void HapusKaryawan(int idUsers)
         {
             using (var conn = NYAMBUNG.GetConnection())

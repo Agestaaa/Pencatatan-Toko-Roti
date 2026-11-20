@@ -2,7 +2,6 @@
 
 namespace Windforms_Toko_Roti.Models
 {
-    // Class induk (Parent Class) untuk akun login
     public class Pengguna
     {
         public int IdUsers { get; set; }
@@ -11,14 +10,12 @@ namespace Windforms_Toko_Roti.Models
         public bool IsPimpinan { get; set; }
     }
 
-    // Class representasi tabel divisi
     public class Divisi
     {
         public int IdDivisi { get; set; }
         public string NamaDivisi { get; set; }
     }
 
-    // Inheritance: Karyawan mewarisi atribut akun dari Pengguna
     public class Karyawan : Pengguna
     {
         private string _namaLengkap;
@@ -26,7 +23,6 @@ namespace Windforms_Toko_Roti.Models
 
         public int IdKaryawan { get; set; }
 
-        // Encapsulation: memvalidasi agar nama tidak kosong
         public string NamaLengkap
         {
             get => _namaLengkap;
@@ -38,7 +34,6 @@ namespace Windforms_Toko_Roti.Models
             }
         }
 
-        // Encapsulation: memvalidasi batas panjang NIK sesuai DDL varchar(18)
         public string Nik
         {
             get => _nik;
@@ -54,13 +49,13 @@ namespace Windforms_Toko_Roti.Models
         public string Email { get; set; }
         public string NoHp { get; set; }
 
-        // Relasi dengan tabel divisi
+
         public int IdDivisi { get; set; }
         public string NamaDivisi { get; set; }
 
         public Karyawan()
         {
-            IsPimpinan = false; // Pekerja bukan Owner
+            IsPimpinan = false; 
         }
     }
 }
