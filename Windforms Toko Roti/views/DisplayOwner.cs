@@ -174,7 +174,7 @@ namespace Windforms_Toko_Roti.Views
 
         private void btnStok_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Menu Stok Bahan Baku belum dibuat.");
+            PindahHalaman(new Stok_Owner());
         }
 
         private void btnLogout_Click(object sender, EventArgs e)

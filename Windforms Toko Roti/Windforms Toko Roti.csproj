@@ -98,9 +98,11 @@
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\DisplayController.cs" />
     <Compile Include="Controllers\KaryawanController.cs" />
+    <Compile Include="Controllers\StokController.cs" />
     <Compile Include="Models\AuthUsers.cs" />
     <Compile Include="Models\DisplayRoti.cs" />
     <Compile Include="Models\Karyawan.cs" />
+    <Compile Include="Models\StokBahanBaku.cs" />
     <Compile Include="Views\DisplayOwner.cs">
       <SubType>Form</SubType>
     </Compile>
