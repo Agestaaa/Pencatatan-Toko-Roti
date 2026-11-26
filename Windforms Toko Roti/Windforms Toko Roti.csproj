@@ -101,11 +101,11 @@
     <Compile Include="Models\AuthUsers.cs" />
     <Compile Include="Models\DisplayRoti.cs" />
     <Compile Include="Models\Karyawan.cs" />
-    <Compile Include="Views\Display_Owner.cs">
+    <Compile Include="Views\DisplayOwner.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\Display_Owner.Designer.cs">
-      <DependentUpon>Display_Owner.cs</DependentUpon>
+    <Compile Include="Views\DisplayOwner.Designer.cs">
+      <DependentUpon>DisplayOwner.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FormAkunKaryawan.cs">
       <SubType>Form</SubType>
@@ -164,6 +164,9 @@
     <Compile Include="Views\Reference\Stok_Owner.Designer.cs">
       <DependentUpon>Stok_Owner.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\DisplayOwner.resx">
+      <DependentUpon>DisplayOwner.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\FormAkunKaryawan.resx">
       <DependentUpon>FormAkunKaryawan.cs</DependentUpon>
     </EmbeddedResource>

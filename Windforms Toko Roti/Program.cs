@@ -17,7 +17,7 @@ namespace Windforms_Toko_Roti
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new DisplayOwner());
         }
     }
 }
