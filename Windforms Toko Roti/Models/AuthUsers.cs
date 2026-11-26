@@ -56,7 +56,7 @@ namespace Windforms_Toko_Roti.Models
 
         public override Form BuatHalamanUtama()
         {
-            return new dashboard_owner();
+            return new FormUtamaOwner();
         }
     }
 

@@ -96,9 +96,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\DisplayController.cs" />
     <Compile Include="Controllers\KaryawanController.cs" />
     <Compile Include="Models\AuthUsers.cs" />
+    <Compile Include="Models\Dashboard.cs" />
     <Compile Include="Models\DisplayRoti.cs" />
     <Compile Include="Models\Karyawan.cs" />
     <Compile Include="Views\DisplayOwner.cs">
@@ -106,6 +108,12 @@
     </Compile>
     <Compile Include="Views\DisplayOwner.Designer.cs">
       <DependentUpon>DisplayOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FormDashboard.Designer.cs">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FormUtamaOwner.cs">
       <SubType>Form</SubType>
@@ -175,6 +183,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FormAkunKaryawan.resx">
       <DependentUpon>FormAkunKaryawan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormDashboard.resx">
+      <DependentUpon>FormDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FormUtamaOwner.resx">
+      <DependentUpon>FormUtamaOwner.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

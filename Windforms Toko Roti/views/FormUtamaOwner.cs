@@ -10,11 +10,11 @@ namespace Windforms_Toko_Roti.Views
         {
             InitializeComponent();
 
+            btnDashboard.Click += (s, e) => BukaHalaman(new FormDashboard(), btnDashboard);
             btnAkunPekerja.Click += (s, e) => BukaHalaman(new FormAkunKaryawan(), btnAkunPekerja);
             btnLogout.Click += (s, e) => this.Close();
 
-            // Langsung buka halaman Akun Pekerja saat pertama dijalankan (bisa diganti FormDashboard nanti)
-            this.Load += (s, e) => BukaHalaman(new FormAkunKaryawan(), btnAkunPekerja);
+            this.Load += (s, e) => BukaHalaman(new FormDashboard(), btnDashboard);
         }
 
         private void BukaHalaman(Form formAnak, Button tombolAktif)

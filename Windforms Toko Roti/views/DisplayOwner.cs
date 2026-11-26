@@ -152,7 +152,7 @@ namespace Windforms_Toko_Roti.Views
 
         private void btnDashboard_Click(object sender, EventArgs e)
         {
-            PindahHalaman(new dashboard_owner());
+            PindahHalaman(new FormDashboard());
         }
 
         private void btnAkunPekerja_Click(object sender, EventArgs e)
