@@ -1,9 +1,9 @@
-﻿using Windforms_Toko_Roti.Database;
-using Windforms_Toko_Roti.Models;
-using Npgsql;
+﻿using Npgsql;
 using System;
 using System.Data;
 using System.Data.Common;
+using Windforms_Toko_Roti.Database;
+using Windforms_Toko_Roti.Models;
 
 namespace Windforms_Toko_Roti.Controllers
 {

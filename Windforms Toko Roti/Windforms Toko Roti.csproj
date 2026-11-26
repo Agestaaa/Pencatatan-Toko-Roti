@@ -96,12 +96,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\AuthController.cs" />
+    <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\DisplayController.cs" />
     <Compile Include="Controllers\KaryawanController.cs" />
     <Compile Include="Models\AuthUsers.cs" />
+    <Compile Include="Models\Dashboard.cs" />
     <Compile Include="Models\DisplayRoti.cs" />
     <Compile Include="Models\Karyawan.cs" />
-
     <Compile Include="Views\FormDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,7 +114,6 @@
     </Compile>
     <Compile Include="Views\FormUtamaOwner.Designer.cs">
       <DependentUpon>FormUtamaOwner.cs</DependentUpon>
-
     </Compile>
     <Compile Include="Views\FormAkunKaryawan.cs">
       <SubType>Form</SubType>
